@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+  <!-- MDUI CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css"/>
+  <title>Hello, world!</title>
+</head>
+<body class="mdui-drawer-body-left mdui-appbar-with-toolbar">
+
+<!--工具栏 -->
+<header class="appbar mdui-appbar mdui-appbar-fixed mdui-color-red">
+<div class="mdui-toolbar mdui-color-theme">
+  <botton mdui-drawer="{target: '#main-drawer'}" class="mdui-btn mdui-btn-icon">
+    <i class="mdui-icon material-icons">menu</i>
+  </botton>
+  <span class="mdui-typo-title">Title</span>
+  <div class="mdui-toolbar-spacer"></div>
+  <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+    <i class="mdui-icon material-icons">search</i>
+  </a>
+  <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+    <i class="mdui-icon material-icons">refresh</i>
+  </a>
+  <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+    <i class="mdui-icon material-icons">more_vert</i>
+  </a>
+</div>
+</header>
+
+<!-- 导航栏 -->
+<div class="mdui-drawer mdui-drawer-open mdui-color-red-100" id="main-drawer"></div>
+
+<!-- 主体 -->
+<div class="container p-drawer mdui-container">
+  <h1>使用说明</h1>
+  <p>ctrl + "+"放大<br>缩小同理</p>
+  <h1>俯卧撑</h1>
+  <img src="img/new.gif">
+  <h1>跑步</h1>
+  <img src="img/run.gif">
+  <h1>单脚起飞</h1>
+  <img src="img/fly.jpg">
+  <h1>动感测公布 ps:鼠标防图片上</h1>
+  <img class="ddd" src="img/ddd.jpg" style="">
+  <style type="text/css">
+    .ddd:hover{
+      transform: rotateY(180deg);
+    }
+    .ddd{
+      height: 300px;
+      width: 1100px;
+    }
+    .dvidoe{
+      transform: rotateY(180deg);
+    }
+
+  </style>
+  <h1>立定跳远</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ki8HbLwhi60?start=364" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="dvidoe" width="560" height="315" src="https://www.youtube.com/embed/ki8HbLwhi60?start=364" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <img src="./img/jump.gif" alt=""><img src="./img/jump.gif" alt="" class="dvidoe">
+  <h1>座位体全曲</h1>
+  <img src="./img/start.gif" alt="">
+  <img src="./img/doing.gif" alt="">
+  <a href="http://121.4.102.32:40000/">别人写的</a>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div>
+<!-- MDUI JavaScript -->
+<script src="./js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
+
+</body>
+</html>
